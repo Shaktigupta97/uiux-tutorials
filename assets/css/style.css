@@ -184,27 +184,26 @@ ul {
   height: 400px;
 }
 /* Footer */
-.second-container {
-  background-image: url(/assets/media/images/bg1.jpg);
+.second-container , .bg-background  {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  height: 450px;
   opacity: 0.5;
 }
 .second-last{
   background-color: #d82a4e!important;
 }
 
-.main-div{
-  background: #d82a4e; 
-  height: 250px!important;
+.bg-primary-background{
+  background: #d82a4e;
+}
+.floating-box-container{
+  height: auto;
 }
 .content-div{
   top: 0; 
   left:0; 
   margin-top: -200px; 
-  height: 400px;
 }
 
 
