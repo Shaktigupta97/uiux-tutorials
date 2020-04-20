@@ -1,0 +1,263 @@
+.main-header {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.bg-light-maroon{
+  background-color: #f9f3f4;
+}
+.logo-container {
+  height: 58px;
+}
+
+.logo-container>img {
+  height: 100%;
+}
+ul {
+  list-style: none;
+}
+.menu ul {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 30px;
+}
+
+.menu-heading {
+  font-size: 20px;
+  color: #d82a4e !important;
+  font-weight: 600;
+}
+
+.menu ul li a:hover,
+.menu ul li a:active,
+.menu ul li a:focus {
+  color: #d82a4e !important;
+}
+
+.navbar-toggler{
+  color: #D82A4E !important;
+  border-color: #D82A4E !important;
+}
+
+.login-btn {
+  display: inline-block;
+  font-size: 20px;
+  background-color: #d82a4e;
+  color: white;
+  min-width: 150px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.login-btn a {
+  color: black;
+}
+
+.full-width-header {
+  min-height: 100%;
+  background: transparent;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.parallax-text {
+  text-align: center;
+  padding-top: 340px;
+  margin-bottom: 100px;
+
+}
+
+.para-heading {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.about-heading {
+  color: #d82a4e;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.signup-btn {
+  display: inline-block;
+  background-color: #d82a4e;
+  color: white;
+  text-align: center;
+}
+
+.form-inline {
+  max-width: 600px;
+}
+
+.courses .container {
+  padding-top: 115px;
+  padding-bottom: 115px
+}
+
+.course-content {
+  padding: 0 110px;
+  margin-bottom: 110px
+}
+
+.courses-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #474747;
+}
+
+.card {
+  margin-bottom: 34px;
+  background: #f9f3f4;
+
+}
+
+.card .card-img-top {
+  background-size: cover;
+  height: 148px;
+
+}
+
+.card-body {
+  padding: 40px 35px
+}
+
+.card-title {
+  margin-bottom: 5px
+}
+
+.read-more {
+  background-color: #d82a4e;
+  color: #fff;
+}
+
+.courses-banner {
+  background-image: url(/assets/media/images/banner1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 400px;
+}
+
+.courses-page-heading {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.breadcrumb {
+  display: flex;
+  list-style: none;
+  background-color: rgba(0, 0, 0, .075);
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.banner-breadcrumb {
+  padding-top: 150px;
+}
+
+.breadcrumb-item {
+  color: #d82a4e !important;
+  position: relative;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  display: inline-block;
+  padding-right: .5rem;
+  color: white;
+  content: "/";
+}
+
+.breadcrumb-item a {
+  display: inline-block;
+  color: #fff;
+}
+.contact-banner {
+  background-image: url(/assets/media/images/banner2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 400px;
+}
+/* Footer */
+.second-container {
+  background-image: url(/assets/media/images/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 450px;
+  opacity: 0.5;
+}
+.second-last{
+  background-color: #d82a4e!important;
+}
+
+.main-div{
+  background: #d82a4e; 
+  height: 250px!important;
+}
+.content-div{
+  top: 0; 
+  left:0; 
+  margin-top: -200px; 
+  height: 400px;
+}
+
+
+.connect {
+  color: #d82a4e;
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+.fab {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  background-color: #d82a4e;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  padding: 20px;
+}
+.icon-list{
+  margin-top: -35px;
+  display: flex;
+  
+}
+.fc-list a{
+  color: black;
+}
+.fc-list a:hover{
+  color: #d82a4e;
+  
+}
+.about-main {
+  /* background-image: linear-gradient(to bottom right,#f3f3f3, #eba7a7, #D82A4E); */
+  /* background-image: url(/assets/media/images/abt2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 500px; */
+}
+.contact-form{
+  border: 2px solid #d82a4e;
+
+}
+.copyright{
+  background-color: #D82A4E;
+}
+
+html, body{
+  height: 100%;
+}
