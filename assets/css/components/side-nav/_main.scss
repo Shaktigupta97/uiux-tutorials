@@ -1,0 +1,39 @@
+.courses-header{
+  background-color: #2f044c;
+  position: fixed;
+}
+// All device - Hide - left hand
+.side-nav{
+  position: fixed;
+  width: 280px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 75px;
+  box-shadow: 1px 0 15px 0 #ddd;
+  transform: translateX(-300px);
+  transition: all 0.3s ease-in;
+  z-index: 999;
+  background-color: lightgray;
+  color: #d824ae!important;
+}
+.body-content{
+  padding-top: 75px;
+
+}
+
+// Large Device - show - right hand
+@media (min-width: 992px) {
+  .side-nav{
+    transform: translateX(0);
+    transition: all 0.3s ease-out;
+  }
+  .body-content{
+    padding-left: 280px;
+  }
+}
+
+.side-nav.open{
+  transform: translateX(0);
+  transition: all 0.3s ease-out;
+}

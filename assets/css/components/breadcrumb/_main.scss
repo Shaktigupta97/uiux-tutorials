@@ -1,0 +1,30 @@
+
+.breadcrumb {
+  display: flex;
+  list-style: none;
+  background-color: rgba(0, 0, 0, .075);
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.banner-breadcrumb {
+  padding-top: 150px;
+}
+
+.breadcrumb-item {
+  color: #a92267 !important;
+  position: relative;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  display: inline-block;
+  padding-right: .5rem;
+  color: white;
+  content: "/";
+}
+
+.breadcrumb-item a {
+  display: inline-block;
+  color: #fff;
+}

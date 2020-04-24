@@ -1,0 +1,25 @@
+html, body{
+  height: 100%;
+}
+ul {
+  list-style: none;
+}
+@import 'components/header/main';
+@import 'components/parallax/main';
+@import 'components/side-nav/main';
+@import 'components/courses/main';
+@import 'components/breadcrumb/main';
+@import 'components/contact/main';
+@import 'components/footer/main';
+
+
+/* Footer */
+/* .second-container , .bg-background  {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  opacity: 0.5;
+} */
+
+
+

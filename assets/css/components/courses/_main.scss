@@ -1,0 +1,43 @@
+.courses .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.courses-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  color: #cea955;
+}
+
+.card {
+  margin-bottom: 34px;
+  background: #2f044c;
+
+}
+
+.card .card-img-top {
+  background-size: cover;
+
+}
+
+.card-body {
+  padding: 40px 35px;
+  color: #cea955;
+}
+
+.card-title {
+  margin-bottom: 5px;
+}
+
+.read-more {
+  background-color: #b31973;
+  color: #fff;
+}
+.courses-banner {
+  background-image: url(/assets/media/images/banner1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 400px;
+}
