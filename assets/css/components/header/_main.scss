@@ -49,6 +49,10 @@
   border-top-left-radius: none; 
    border-bottom-left-radius: none; 
 }
+.nav-item .btn.menu-heading.dropdown-toggle.dropdown-toggle-split {
+  outline: none !important;
+  box-shadow: none !important;
+}
 
 
 .login-btn {

@@ -1,6 +1,6 @@
-.courses .container {
-  padding-top: 100px;
-  padding-bottom: 100px;
+.courses  {
+  margin-top: 200px;
+  margin-bottom: 140px!important;
 }
 
 .courses-title {
@@ -33,6 +33,7 @@
 .read-more {
   background-color: #b31973;
   color: #fff;
+  border: none;
 }
 .courses-banner {
   background-image: url(/assets/media/images/banner1.jpg);
@@ -40,4 +41,16 @@
   background-repeat: no-repeat;
   background-position: top center;
   height: 400px;
+}
+.html-example {
+  width: auto;
+  background-color: #fff;
+  padding: 8px 12px;
+  border-left: 4px solid #b31973;
+}
+.title-1{
+  color: #cea955;
+}
+.courses-page{
+  margin-top: 50px;
 }
