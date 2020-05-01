@@ -13,54 +13,7 @@
 </head>
 <body>
   <!-- Header -->
-  <header class="main-header bg-light-purple">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="navbar navbar-expand-lg menu navbar-light bg-transparent">
-            <div class="navbar-brand logo-container">
-              <img src="assets/media/images/logo-transparent.png" alt="logo">
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="d-inline-block py-2">MENU</span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto mr-0">
-                <li class="nav-item">
-                  <a class="nav-link menu-heading" href="index.html">Home <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menu-heading" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <div class="btn-group">
-                    <a class="menu-heading nav-link" href="/courses/index.html">Courses</a>
-                    <button type="button" class="btn menu-heading dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
-                      <span class="sr-only">Toggle Dropdown</span>
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
-                      <a class="dropdown-item" href="/courses/html/index.html">HTML,CSS and BOOTSTRAP</a>
-                      <a class="dropdown-item" href="#">JS and jQUERY</a>
-                      <a class="dropdown-item" href="/courses/wordpress/index.html">WORDPRESS</a>
-                      <a class="dropdown-item" href="/courses/php/index.html">PHP</a>
-                      <a class="dropdown-item" href="/courses/MySQL/index.html">MySQL</a>
-                    </div>
-                  </div>
-
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menu-heading" href="contact.html">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                  <a href="Home-page.html" class="btn my-lg-0 my-4 login-btn" role="button">Login</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
+  <header class="main-header bg-light-purple" data-load-template="/template/header.data">
   </header>
 
   <div class="container-fluid about-main">
@@ -82,14 +35,10 @@
     </div>
   </div>
 
-    <!-- Footer -->
-    <footer class="container-fluid">
-      <div class="row">
-        <div class="col-12 py-5 copyright">
-          <p class="m-0 text-white text-center">&#169; Copyrighted 2020 &nbsp;Developed by Shakti Gupta.</p>
-        </div>
-      </div>
-    </footer>
+  <!-- Footer -->
+  <footer class="container-fluid" data-load-template="/template/footer.data">
+
+  </footer>
 
 
 
