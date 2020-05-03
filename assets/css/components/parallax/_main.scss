@@ -4,6 +4,7 @@
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  
 }
 
 .parallax-text {
@@ -39,4 +40,15 @@
 
 .form-inline {
   max-width: 600px;
+}
+
+#particles-js{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 9;
+
 }

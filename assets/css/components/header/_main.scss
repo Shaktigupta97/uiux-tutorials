@@ -2,6 +2,8 @@
   width: 100%;
   top: 0;
   left: 0;
+  position: fixed;
+  z-index: 999;
 }
 .bg-light-purple{
   background-color: #2f044c;
