@@ -82,7 +82,7 @@ ul {
   text-align: center;
   font-size: 48px;
   font-weight: 600;
-
+  margin-bottom: 25px;
 }
 
 .signup-btn {
@@ -97,14 +97,20 @@ ul {
 }
 
 .courses .container {
-  padding-top: 100px;
-  padding-bottom: 100px
+  padding-top: 115px;
+  padding-bottom: 115px
+}
+
+.course-content {
+  padding: 0 110px;
+  margin-bottom: 110px
 }
 
 .courses-title {
   text-align: center;
   font-size: 48px;
   font-weight: 600;
+  margin-bottom: 25px;
   color: #474747;
 }
 
@@ -184,26 +190,27 @@ ul {
   height: 400px;
 }
 /* Footer */
-.second-container , .bg-background  {
+.second-container {
+  background-image: url(/assets/media/images/bg1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
+  height: 450px;
   opacity: 0.5;
 }
 .second-last{
   background-color: #d82a4e!important;
 }
 
-.bg-primary-background{
-  background: #d82a4e;
-}
-.floating-box-container{
-  height: auto;
+.main-div{
+  background: #d82a4e; 
+  height: 250px!important;
 }
 .content-div{
   top: 0; 
   left:0; 
   margin-top: -200px; 
+  height: 400px;
 }
 
 
@@ -249,20 +256,6 @@ ul {
 }
 .copyright{
   background-color: #D82A4E;
-}
-.google-maps {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  overflow: hidden;
-}
-
-.google-maps iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
 }
 
 html, body{

@@ -1,4 +1,3 @@
-
 $('#open-side-nav').on('click', function(){
   // var side_nav_ele = $('#side-nav');
 
@@ -39,3 +38,50 @@ try{
     console.log('callback - particles.js config loaded');
   });
 } catch (err) {}
+
+//typeit js
+new TypeIt("#multipleStrings", {
+  strings: ["Learn", "Create", "and", "Develop", "with"],
+  speed: 50,
+  cursor: true
+}).go();
+
+
+//loader
+function functionSequence(){
+  $('#pre-loader').animate({
+    'top': -100 + '%',
+    'opacity': 0
+  }, 500, function(){
+    $(this).remove();
+  });
+  
+  setTimeout(() => {
+    $('.book-loader-base').animate({
+      'top': -100 + '%',
+      'opacity': 0
+    }, 500, function(){    //1500 is duration of going of loader
+      $(this).remove();
+    });
+  }, 2000);                //1500 is duration of going of loader
+}
+// =========================================================
+// On Load
+// =========================================================
+if (window.addEventListener) {
+  window.addEventListener('load', function () {
+    functionSequence();
+  });
+} else {
+  window.attachEvent('onload', function () {
+    functionSequence();
+  });
+}
+
+
+// $('.single-item').slick({
+//   slidesToShow: 3,
+//   autoplay: true,
+//   centerPadding: '40px',
+//   arrows: false,
+// });

@@ -4,6 +4,8 @@ html, body{
 ul {
   list-style: none;
 }
+
+@import 'components/loader/main';
 @import 'components/header/main';
 @import 'components/parallax/main';
 @import 'components/side-nav/main';

@@ -12,11 +12,25 @@
   text-align: left;
 
 }
+.parallax-text{
+  color: #cea955;
+  font-size: 50px;
+  text-align: right;
+}
+.parallax-heading{
+   color: #2f044c;
+   font-size: 50px;
+  text-align: right;
+
+}
+
 .para-heading {
   font-size: 50px;
   font-weight: 500;
 }
-
+.about-main{
+  padding-top: 75px;
+}
 .about-section{
   margin-top: 150px;
   margin-bottom: 150px!important; 
@@ -33,7 +47,7 @@
 
 .signup-btn {
   display: inline-block;
-  background-color: #b31973;
+  background-color: #008dc2;
   color: white;
   text-align: center;
 }
