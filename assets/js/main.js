@@ -40,30 +40,37 @@ try{
 } catch (err) {}
 
 //typeit js
-new TypeIt("#multipleStrings", {
-  strings: ["Learn", "Create", "and", "Develop", "with"],
-  speed: 50,
-  cursor: true
-}).go();
+  new TypeIt("#first-text", {
+    strings: ["Learn and Develop", "with"],
+    speed: 100,
+    loop: true
+    
+  }).go();
+
+
+
+
+
+
 
 
 //loader
 function functionSequence(){
-  $('#pre-loader').animate({
-    'top': -100 + '%',
-    'opacity': 0
-  }, 500, function(){
-    $(this).remove();
-  });
+  // $('#pre-loader').animate({
+  //   'top': -100 + '%',
+  //   'opacity': 0
+  // }, 500, function(){
+  //   $(this).remove();
+  // });
   
   setTimeout(() => {
     $('.book-loader-base').animate({
       'top': -100 + '%',
       'opacity': 0
-    }, 300, function(){    //1500 is duration of going of loader
+    }, 500, function(){    //1500 is duration of going of loader
       $(this).remove();
     });
-  }, 1500);                //1500 is duration of going of loader
+  }, 1000);                //1500 is duration of going of loader
 }
 // =========================================================
 // On Load
@@ -79,9 +86,3 @@ if (window.addEventListener) {
 }
 
 
-// $('.single-item').slick({
-//   slidesToShow: 3,
-//   autoplay: true,
-//   centerPadding: '40px',
-//   arrows: false,
-// });
