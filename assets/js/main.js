@@ -70,7 +70,7 @@ function functionSequence(){
     }, 500, function(){    //1500 is duration of going of loader
       $(this).remove();
     });
-  }, 1000);                //1500 is duration of going of loader
+  }, 1500);                //1500 is duration of going of loader
 }
 // =========================================================
 // On Load
