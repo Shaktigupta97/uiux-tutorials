@@ -31,16 +31,31 @@
   font-weight: 600;
 }
 
-.menu ul li a:hover,
-.menu ul li a:active,
-.menu ul li a:focus {
-  // color: white !important;
-}
 .dropdown-item{
   color: #008dc2;
 }
 .dropdown-menu a:hover{
   color: #008dc2;
+}
+.frontend-menu{
+  margin-top: -110px;
+    margin-left: 213px;
+}
+.front-dropdown{
+  text-align: right;
+    margin-top: -33px;
+    padding-right: 5px;
+    color: #008dc2;
+}
+.backend-menu{
+  margin-top: -50px;
+    margin-left: 213px;
+}
+.back-dropdown{
+  text-align: right;
+    margin-top: -33px;
+    padding-right: 5px;
+    color: #008dc2;
 }
 
 .navbar-toggler{

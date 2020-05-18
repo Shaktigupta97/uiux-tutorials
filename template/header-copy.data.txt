@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <nav class="navbar navbar-expand-lg menu navbar-light bg-transparent">
+        <div class="navbar-brand logo-container">
+          <img src="assets/media/images/logo-transparent.png" alt="logo">
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="d-inline-block py-2">MENU</span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-0">
+            <li class="nav-item">
+              <a class="nav-link menu-heading" href="/index.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu-heading" href="/about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <div class="btn-group">
+                <a class="menu-heading nav-link" href="/courses/index.html">Courses</a>
+                <button type="button" class="btn menu-heading dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu dropright" aria-labelledby="dropdownMenuReference">
+                  <a class="dropdown-item" href="/courses/index.html">Frontend Development</a>
+                  <button type="button" class="btn dropdown-item front-dropdown dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropright</span>
+                  </button>
+                  <div class="dropdown-menu frontend-menu" aria-labelledby="dropdownMenuReference">
+                    <a class="dropdown-item" href="/courses/html/index.html">HTML</a>
+                    <a class="dropdown-item" href="/courses/css/index.html">CSS</a>
+                    <a class="dropdown-item" href="/courses/bootstrap/index.html">BOOTSTRAP</a>
+                    <a class="dropdown-item" href="/courses/wordpress/index.html">WORDPRESS</a>
+                  </div>
+                  <a class="dropdown-item" href="/courses/index.html">Backend Development</a>
+                  <div class="dropdown-menu backend-menu" aria-labelledby="dropdownMenuReference">
+                    <a class="dropdown-item" href="/courses/JS/index.html">JavaScript</a>
+                    <a class="dropdown-item" href="/courses/jQuery/index.html">jQuery</a>
+                    <a class="dropdown-item" href="/courses/php/index.html">PHP</a>
+                    <a class="dropdown-item" href="/courses/MySQL/index.html">MySQL</a>
+                  </div>
+                </div> 
+              </div> 
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link menu-heading" href="/contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="Home-page.html" class="btn my-lg-0 my-4 login-btn" role="button">Login</a>
+            </li>
+          </ul>
+        </div>
+
+
+      </nav>
+    </div>
+  </div>
+</div>
