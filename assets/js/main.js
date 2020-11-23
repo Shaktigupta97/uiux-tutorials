@@ -62,7 +62,7 @@ function functionSequence(){
   // }, 500, function(){
   //   $(this).remove();
   // });
-  
+    
   setTimeout(() => {
     $('.book-loader-base').animate({
       'top': -100 + '%',
